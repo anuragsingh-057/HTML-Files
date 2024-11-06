@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Registration Page</title>
+    </head>
+
+    <style>
+        body{margin: 30px; padding: 0px; box-sizing: border-box}
+        table{background-color:antiquewhite}
+        label{font-weight: bold}
+        input{width: 200px; padding: 5px 10px}
+        button{padding: 5px 20px; border-radius: 20px}
+    </style>
+
+    <body>
+        <form action="get">
+            <table width="auto" align="center" border="0" cellspacing="10px" cellpadding="10px">
+                <caption>Registration Page</caption>
+                <tr>
+                    <td><label>Username:</label></td>
+                    <td></td>
+                    <td><input type="text" placeholder="Enter Name" class="input" required></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td></td>
+                    <td><input type="password" placeholder="Enter Password" class="input" required></td>
+                </tr>
+                <tr>
+                    <td><label>E-Mail:</label></td>
+                    <td></td>
+                    <td><input type="email" placeholder="Enter E-mail ID" class="input" required></td>
+                </tr>
+                <tr>
+                    <td><label>Phone Number:</label></td>
+                    <td></td>
+                    <td><input type="text" placeholder="Enter Phone Number" class="input" maxlength="10" required></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td></td>
+                    <td>
+                        Male<input type="radio" id="male" name="gender" value="male" required>
+                        Female<input type="radio" id="female" name="gender" value="female" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth:</label></td>
+                    <td></td>
+                    <td><input type="date" class="input" required></td>
+                </tr>
+                <tr>
+                    <td><label>Language:</label></td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="language">Hindi <br>
+                        <input type="checkbox" name="language">English <br>
+                        <input type="checkbox" name="language">Japanese <br>
+                        <input type="checkbox" name="language">Latin
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Address:</label></td>
+                    <td></td>
+                    <td><textarea name="" id="address" cols="50" rows="8" required></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="submit" class="button" value="Submit">
+                        <input type="reset" class="button" value="Reset">
+                    </td>
+                </tr>
+            </table>
+           
+        </form>
+    </body>
+</html>
